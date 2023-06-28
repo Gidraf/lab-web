@@ -11,11 +11,11 @@ const CertificationItem = ({ item, language }) => (
     <div className="flex justify-between items-center">
       <div className="flex flex-col text-left mr-2">
         <h6 className="font-semibold text-sm">{_.get(item, 'educationalLevel', '')} {_.get(item, 'about.educationalCredentialAwarded', '')}</h6>
-        <span className="text-xs">{_.get(item, "about.provider.name", "")}</span>
+        <span className="text-xs">{_.get(item, "title", "")}</span>
       </div>
       { _.get(item, "about.endDate", "") !== '' && (
         <h6 className="text-xs font-medium text-right">
-          {formatDate({ date: _.get(item, "about.endDate", ""), language })}
+          {formatDate({ date: _.get(item, "subtitle", ""), language })}
         </h6>
       )}
     </div>
@@ -33,8 +33,8 @@ const CertificationsA = () => {
     <div>
       <Heading>{data.certifications.heading}</Heading>
       <div className="grid gap-4">
-        {_.get(data, "jsonld['@graph'][1].hasCredential", []).filter(x => (!_.get(x, '@id', '').endsWith("disable") && _.toLower(_.get(x, 'credentialCategory', ''))!=="degree")).map(x=> (<CertificationItem
-            key={_.get(x,'@id', uuidv4())}
+        {_.get(data, "certifications.items").map(x=> (<CertificationItem
+            key={_.get(x,'id', uuidv4())}
             item={x}
             language={data.language}
           />))}

@@ -21,7 +21,30 @@
 		},
 		"certifications": {
 			"enable": true,
-			"heading": "Certifications"
+			"heading": "Certifications",
+			"items": [
+				{
+				  "id": "e5170d99-b21d-4131-a7dc-26a4670037f5",
+				  "title": "CCNP",
+				  "subtitle": "Cisco Systems",
+				  "description": "",
+				  "enable": true
+				},
+				{
+				  "id": "788e4042-9ecb-40c5-849d-7688b4e23888",
+				  "title": "VCP6-DCV",
+				  "subtitle": "VMWare",
+				  "description": "",
+				  "enable": true
+				},
+				{
+				  "id": "97a1a8d9-3c03-47fb-93ab-e84f864ffe17",
+				  "title": "DCUCI 642-999",
+				  "subtitle": "Cisco Systems",
+				  "description": "",
+				  "enable": true
+				}
+			  ]
 		},
 		"skills": {
 			"enable": true,
