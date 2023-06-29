@@ -1,0 +1,317 @@
+{
+    "data": {
+        "achievements": [
+            {
+                "description": "Recognized for outstanding performance and contributions to the company.",
+                "name": "Best Employee of the Year",
+                "platform": "ABC Corporation",
+                "timeperiod": "2019"
+            },
+            {
+                "description": "Developed an innovative application that won the first prize in the company's hackathon.",
+                "name": "Hackathon Winner",
+                "platform": "XYZ Ltd",
+                "timeperiod": "2017"
+            },
+            {
+                "description": "Co-authored a research paper on machine learning published in a reputable tech journal.",
+                "name": "Publication in Tech Journal",
+                "platform": "Journal of Computer Science",
+                "timeperiod": "2020"
+            },
+            {
+                "description": "Recognized as one of the top performers in the company's annual performance evaluation.",
+                "name": "Top Performer Award",
+                "platform": "123 Inc",
+                "timeperiod": "2015"
+            },
+            {
+                "description": "Achieved a high score and received a certification of excellence for completing an advanced course.",
+                "name": "Certification of Excellence",
+                "platform": "Online Course Platform",
+                "timeperiod": "2022"
+            }
+        ],
+        "affiliations": [
+            {
+                "@id": "1",
+                "@type": "Event",
+                "description": "An international conference on technology and innovation.",
+                "programName": "Conference X",
+                "url": "https://www.example.com/event-1"
+            },
+            {
+                "@id": "2",
+                "@type": "Workshop",
+                "description": "A hands-on workshop for beginners to learn the basics of machine learning.",
+                "programName": "Introduction to Machine Learning",
+                "url": "https://www.example.com/workshop-1"
+            },
+            {
+                "@id": "3",
+                "@type": "Webinar",
+                "description": "A webinar discussing effective digital marketing strategies for businesses.",
+                "programName": "Digital Marketing Strategies",
+                "url": "https://www.example.com/webinar-1"
+            },
+            {
+                "@id": "4",
+                "@type": "Course",
+                "description": "An intensive data science training program covering various techniques and tools.",
+                "programName": "Data Science Bootcamp",
+                "url": "https://www.example.com/course-1"
+            },
+            {
+                "@id": "5",
+                "@type": "Hackathon",
+                "description": "A 24-hour hackathon to solve real-world problems and showcase innovative solutions.",
+                "programName": "Innovation Challenge",
+                "url": "https://www.example.com/hackathon-1"
+            }
+        ],
+        "certifications": [
+            {
+                "description": "Certification demonstrating knowledge and skills in developing applications on the AWS platform.",
+                "name": "AWS Certified Developer - Associate"
+            },
+            {
+                "description": "Certification for proficiency in using Google Analytics to analyze website traffic and user behavior.",
+                "name": "Google Analytics Individual Qualification"
+            },
+            {
+                "description": "Certification validating expertise in Scrum project management framework.",
+                "name": "Certified Scrum Master"
+            },
+            {
+                "description": "Certification for managing and administering Azure cloud services.",
+                "name": "Microsoft Certified: Azure Administrator Associate"
+            },
+            {
+                "description": "Certification for ethical hacking and penetration testing skills.",
+                "name": "Certified Ethical Hacker (CEH)"
+            }
+        ],
+        "contributions": [
+            {
+                "description": "Contributed code and bug fixes to an open source project.",
+                "name": "Open Source Project",
+                "url": "https://github.com/exampleproject"
+            },
+            {
+                "description": "Provided assistance and support to a local community organization.",
+                "name": "Volunteer Work",
+                "url": ""
+            },
+            {
+                "description": "Authored a blog post on a technical topic and shared insights and knowledge.",
+                "name": "Blog Post",
+                "url": "https://www.exampleblog.com/myblogpost"
+            },
+            {
+                "description": "Organized and participated in fundraising events for charitable causes.",
+                "name": "Charity Fundraising",
+                "url": ""
+            },
+            {
+                "description": "Mentored junior developers and provided guidance and support in their career development.",
+                "name": "Mentoring",
+                "url": ""
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor of Science in Computer Science",
+                "description": "Studied computer science with a focus on software development.",
+                "institution": "Example University",
+                "timeperiod": "2010-2014",
+                "website": "https://www.exampleuniversity.com"
+            },
+            {
+                "degree": "Master of Business Administration",
+                "description": "Specialized in business strategy and management.",
+                "institution": "Business School",
+                "timeperiod": "2018-2020",
+                "website": "https://www.businessschool.edu"
+            },
+            {
+                "degree": "Associate Degree in Graphic Design",
+                "description": "Learned various design principles and software tools.",
+                "institution": "Design Institute",
+                "timeperiod": "2012-2014",
+                "website": "https://www.designinstitute.edu"
+            },
+            {
+                "degree": "High School Diploma",
+                "description": "Completed high school education with good grades.",
+                "institution": "ABC High School",
+                "timeperiod": "2006-2010",
+                "website": ""
+            },
+            {
+                "degree": "Online Course on Data Science",
+                "description": "Learned data science concepts and techniques through an online course.",
+                "institution": "Online Data Science Course",
+                "timeperiod": "2021",
+                "website": "https://www.onlinedatasciencecourse.com"
+            }
+        ],
+        "email": "orenjagidraf@gmail.com",
+        "experience": [
+            {
+                "company": "ABC Corporation",
+                "description": "Developed and maintained web applications using various technologies.",
+                "position": "Software Engineer",
+                "timeperiod": "2018-2021",
+                "website": "https://www.abccorp.com"
+            },
+            {
+                "company": "XYZ Ltd",
+                "description": "Led a team of developers and designers to launch a new product.",
+                "position": "Product Manager",
+                "timeperiod": "2016-2018",
+                "website": "https://www.xyzltd.com"
+            },
+            {
+                "company": "123 Inc",
+                "description": "Performed data analysis and generated reports for business insights.",
+                "position": "Data Analyst",
+                "timeperiod": "2014-2016",
+                "website": "https://www.123inc.com"
+            },
+            {
+                "company": "PQR Technologies",
+                "description": "Assisted senior developers in coding and testing software modules.",
+                "position": "Intern",
+                "timeperiod": "2013",
+                "website": "https://www.pqrtech.com"
+            },
+            {
+                "company": "MNO Solutions",
+                "description": "Performed manual and automated testing to ensure software quality.",
+                "position": "Quality Assurance Engineer",
+                "timeperiod": "2012-2013",
+                "website": "https://www.mnosolutions.com"
+            }
+        ],
+        "firstname": "GIDRAF",
+        "github_link": "",
+        "hobbies": [
+            {
+                "name": "Photography"
+            },
+            {
+                "name": "Playing Guitar"
+            },
+            {
+                "name": "Hiking"
+            },
+            {
+                "name": "Cooking"
+            },
+            {
+                "name": "Painting"
+            }
+        ],
+        "knowledge": "Proficient in SQL and database management.",
+        "lastname": "MTANGE",
+        "linked_link": "https://www.linkedin.com/in/gidraf-orenja-a2287917b/",
+        "middle_name": "ORENJAA",
+        "phonenumber": "+254791186712",
+        "portfolio_link": "",
+        "position": "Software Developer",
+        "projects": [
+            {
+                "description": "Developed a fully functional e-commerce website with shopping cart and payment integration.",
+                "name": "E-commerce Website"
+            },
+            {
+                "description": "Created a mobile app that allows users to manage their tasks and track progress.",
+                "name": "Mobile App for Task Management"
+            },
+            {
+                "description": "Designed and implemented a dashboard for visualizing and analyzing large datasets.",
+                "name": "Data Analysis Dashboard"
+            },
+            {
+                "description": "Built a custom CMS for easy content management and publishing.",
+                "name": "Content Management System"
+            },
+            {
+                "description": "Developed a machine learning model that can accurately classify images into different categories.",
+                "name": "Machine Learning Model for Image Recognition"
+            }
+        ],
+        "referees": [
+            {
+                "company": "ABC Corporation",
+                "contacts": "john.smith@example.com",
+                "name": "John Smith",
+                "position": "Senior Manager"
+            },
+            {
+                "company": "XYZ Ltd",
+                "contacts": "sarah.johnson@example.com",
+                "name": "Sarah Johnson",
+                "position": "Director of Marketing"
+            },
+            {
+                "company": "Example University",
+                "contacts": "michael.brown@example.com",
+                "name": "Michael Brown",
+                "position": "Professor"
+            },
+            {
+                "company": "123 Inc",
+                "contacts": "emily.davis@example.com",
+                "name": "Emily Davis",
+                "position": "HR Manager"
+            },
+            {
+                "company": "PQR Technologies",
+                "contacts": "david.wilson@example.com",
+                "name": "David Wilson",
+                "position": "CEO"
+            }
+        ],
+        "seminars": [
+            {
+                "description": "Attended a seminar that provided an overview of AI concepts and applications.",
+                "name": "Introduction to Artificial Intelligence"
+            },
+            {
+                "description": "Participated in a seminar on project management best practices and techniques.",
+                "name": "Effective Project Management Strategies"
+            },
+            {
+                "description": "Explored the latest trends and techniques in web design at a seminar.",
+                "name": "Web Design Trends and Techniques"
+            },
+            {
+                "description": "Attended a seminar on safeguarding data privacy and implementing security measures.",
+                "name": "Data Privacy and Security"
+            },
+            {
+                "description": "Participated in a seminar that focused on developing effective leadership and communication skills.",
+                "name": "Leadership and Communication Skills"
+            }
+        ],
+        "skills": [
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "Python"
+            },
+            {
+                "name": "HTML/CSS"
+            },
+            {
+                "name": "Java"
+            },
+            {
+                "name": "Project Management"
+            }
+        ],
+        "summary": "Motivated and skilled software developer with a strong passion for the drone industry, AI, machine learning, and big data. With over 5 years of experience in various technology industries, including FinTech, E-Commerce, Ride-Hailing Apps, and Bots, I have a proven track record of quickly embedding in client teams, gathering requirements, and designing top-performing applications. I possess excellent problem-solving skills and a deep understanding of web development technologies. As an entry-level software developer at Fahari Aviation, I am excited to contribute to the development and enhancement of in-house applications."
+    }
+}
